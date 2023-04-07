@@ -1,0 +1,38 @@
+.pr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .rext {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: right;
+    color: #ff7010;
+  }
+  button {
+    background: #ff7010;
+    border-radius: 6px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    padding: 13px 32px;
+    &:hover {
+      background: #f16000;
+    }
+  }
+}
+.card {
+  border-radius: 3.5%;
+}
+.btn_like {
+  background: rgb(240, 239, 239);
+  border: 2px solid rgb(232, 0, 0);
+  border-radius: 2%;
+  padding: 5px 10px;
+
+}
